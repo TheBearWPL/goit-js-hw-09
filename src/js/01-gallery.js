@@ -1,4 +1,4 @@
-import { images } from './gallery-items'; // Import images from gallery-items.js
+import { images } from './gallery-items';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
@@ -23,6 +23,6 @@ const galleryItems = images
 gallery.innerHTML = galleryItems;
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  captionsData: 'alt', // Używa atrybutu alt jako podpisu
-  captionDelay: 250, // Opóźnienie w wyświetleniu podpisu
+  captionsData: 'alt',
+  captionDelay: 250,
 });
