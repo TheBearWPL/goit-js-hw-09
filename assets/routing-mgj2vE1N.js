@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",()=>{const o="/goit-js-hw-09",n=document.querySelectorAll(".nav-link");window.location.hostname.includes("github.io")&&n.forEach(e=>{let t=e.getAttribute("href");t=t.replace(/^(\.\/|\.\.\/)+/,""),e.href=`${o}/${t}`,console.log(`Original href: ${e.getAttribute("href")}`),console.log(`Updated href: ${e.href}`)})});
+//# sourceMappingURL=routing-mgj2vE1N.js.map
